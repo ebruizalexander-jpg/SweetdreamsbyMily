@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Us — SweetdreamsbyMily event decoration in Houston, Katy, and Cypress.">
+  <title>Contact Us | SweetdreamsbyMily</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header>
+  <div><a class="brand brand-link" href="index.html">SweetdreamsbyMily</a><div class="tag">Creating Beautiful Celebrations</div></div>
+  <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="packages.html">Packages</a><a href="contact.html" aria-current="page">Contact Us</a></nav>
+</header>
+<main id="main">
+<section id="contact" class="section contact"><div class="section-inner"><div class="eyebrow">Contact Us</div><h1>Let's create your celebration</h1><p>SweetdreamsbyMily proudly serves Houston, Katy, Cypress, and surrounding areas. Contact us to discuss your event theme, date, location, and décor ideas.</p><p id="bookingHelp">Prepare your event inquiry below. Online sending is currently unavailable; use our contact details to send your request. An inquiry does not reserve your date.</p>
+<!-- To enable live submissions, set action to your public https://formspree.io/f/FORM_ID endpoint. Never add API keys or passwords. -->
+<form id="bookingForm" method="post" aria-describedby="bookingHelp">
+  <label for="bookingName">Name (required)</label><input id="bookingName" name="name" autocomplete="name" required maxlength="100">
+  <label for="bookingEmail">Email (required)</label><input id="bookingEmail" name="email" type="email" autocomplete="email" required maxlength="254">
+  <label for="bookingPhone">Phone (optional)</label><input id="bookingPhone" name="phone" type="tel" autocomplete="tel" maxlength="40">
+  <label for="bookingDate">Event date (required)</label><input id="bookingDate" name="event_date" type="date" required>
+  <label for="bookingLocation">Event location (required)</label><input id="bookingLocation" name="location" required maxlength="250">
+  <label for="bookingPackage">Package</label><select id="bookingPackage" name="package"><option>Not sure yet</option><option>Basic — $280</option><option>Medium — $350</option><option>Deluxe — starting at $400</option></select>
+  <label for="bookingDetails">Theme, colors, and décor ideas (required)</label><textarea id="bookingDetails" name="details" rows="5" required maxlength="3000"></textarea>
+  <div hidden><label for="bookingGotcha">Leave blank</label><input id="bookingGotcha" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+  <p>Use this form for event details only. Please do not include payment information or sensitive personal information.</p>
+  <button id="bookingSubmit" class="btn" type="submit" disabled>Prepare inquiry</button>
+  <p id="formMessage" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
+</form>
+<div id="bookingFallback">
+  <p>Prefer to contact us directly? <a href="business-card.png">View our business card for contact details</a>.</p>
+  <div id="inquiryDraft" hidden><label for="inquirySummary">Your inquiry — copy and send using the contact details above</label><textarea id="inquirySummary" rows="10" readonly></textarea></div>
+</div>
+<noscript><p>JavaScript is required for the inquiry helper. Please use the contact details on our business card to send your event date, location, theme, and preferred package.</p></noscript></div></section>
+</main>
+<footer>&copy; <span id="year">2026</span> SweetdreamsbyMily. Houston, Texas.</footer>
+</body>
+</html>

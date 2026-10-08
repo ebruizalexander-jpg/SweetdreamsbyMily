@@ -12,3 +12,32 @@
 .package-cards{grid-template-columns:repeat(3,1fr);align-items:stretch}.package{text-align:left;position:relative;padding:32px}.package h3{font-family:Georgia,serif;font-size:27px;margin:10px 0 5px}.package-label{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;background:#f4e0e7;color:#8c4862;padding:7px 10px;border-radius:20px;font-weight:bold}.price{font-family:Georgia,serif;font-size:30px;color:#553943;font-weight:bold;margin:8px 0 15px}.package ul{padding-left:20px;line-height:1.8;color:#64545a}.package-note{margin-top:24px!important;font-size:14px;color:#7a666e}
 @media(max-width:900px){.welcome-stage{padding:190px 60px 90px}.package-cards{grid-template-columns:1fr}.hero h1{font-size:46px}.b5{left:35%}.b6{left:48%}.b7{right:35%}.b8{right:48%}}
 @media(max-width:650px){.hero{padding:30px 5% 55px}.hero-logo{margin-bottom:24px}.welcome-stage{min-height:690px;padding:185px 25px 130px}.hero h1{font-size:38px}.hero p{font-size:16px}.balloon{transform:scale(.72) rotate(var(--r,0deg))}.b3{left:5px}.b4{left:45px}.b5{left:110px}.b6{left:190px}.b7{right:190px}.b8{right:110px}.b9{right:45px}.b10{right:5px}}
+
+/* Booking inquiry */
+#bookingForm,#bookingFallback{max-width:680px;margin:24px auto;text-align:left}
+#bookingForm label,#inquiryDraft label{display:block;font-weight:bold;margin:16px 0 7px}
+#bookingForm input,#bookingForm select,#bookingForm textarea,#inquirySummary{width:100%;padding:12px;border:1px solid #826e76;border-radius:8px;font:inherit;background:white;color:#30252a}
+#bookingForm textarea,#inquirySummary{resize:vertical}
+#bookingForm .btn{border:0;font:inherit;cursor:pointer}
+#bookingForm .btn:disabled{opacity:.65;cursor:wait}
+#formMessage{line-height:1.6}
+#formMessage[data-state="success"]{color:#225a36}
+#formMessage[data-state="error"]{color:#8b1e25}
+#bookingForm :focus-visible,#bookingFallback :focus-visible{outline:3px solid #553943;outline-offset:3px}
+
+
+/* M3.4: one consistent palette and font system across all pages. */
+:root{--page-bg:#fff9fb;--surface:#fff;--text:#30252a;--brand:#a25b75;--heading:#553943;--border:#eadde3;--body-font:Arial,Helvetica,sans-serif;--heading-font:Georgia,"Times New Roman",serif}
+body{font-family:var(--body-font);background:var(--page-bg);color:var(--text)}
+h1,h2,.brand{font-family:var(--heading-font)}
+.section h1{font-size:clamp(2rem,5vw,2.5rem);color:var(--heading);margin:10px 0 18px}
+.brand-link{text-decoration:none}
+nav a[aria-current="page"]{background:#f1dce4;color:#71334c;font-weight:bold}
+.skip-link{position:absolute;left:12px;top:-100px;z-index:20;background:#fff;padding:12px;color:#553943}
+.skip-link:focus{top:12px}
+a:focus-visible{outline:3px solid #553943;outline-offset:3px}
+main{min-height:65vh}
+.hero .hero-content h1{font-size:clamp(2rem,5vw,3.375rem)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.card h2{font-size:1.35rem;color:#a25b75;font-family:Arial,Helvetica,sans-serif}.package h2{font-family:Georgia,serif;font-size:27px;margin:10px 0 5px}
