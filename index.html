@@ -5,19 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SweetdreamsbyMily event decoration services in Houston, Katy, and Cypress, Texas.">
   <title>SweetdreamsbyMily | Event Decorations</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header"><a class="brand" href="#home">Sweetdreams<span>byMily</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#packages">Packages</a><a class="nav-cta" href="#contact">Book Now</a></nav></header>
+<header>
+  <div><div class="brand">SweetdreamsbyMily</div><div class="tag">Creating Beautiful Celebrations</div></div>
+  <nav aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#packages">Packages</a><a href="#contact">Contact Us</a>
+  </nav>
+</header>
 <main>
-<section class="hero" id="home"><div class="hero-copy"><p class="eyebrow">Houston • Katy • Cypress</p><h1>Turning celebrations into <em>sweet dreams.</em></h1><p>Custom event décor for birthdays, baby showers, graduations, anniversaries, corporate celebrations, and unforgettable milestones.</p><div class="hero-actions"><a class="button primary" href="#contact">Request a Booking</a><a class="button secondary" href="#portfolio">View My Work</a></div></div><div class="hero-art" aria-label="Decorative event backdrop illustration"><div class="arch arch-one"></div><div class="arch arch-two"></div><div class="balloon b1"></div><div class="balloon b2"></div><div class="balloon b3"></div><div class="balloon b4"></div><div class="balloon b5"></div><div class="sign">Celebrate<br><span>beautifully</span></div></div></section>
-<section class="section intro" id="about"><p class="eyebrow">About SweetdreamsbyMily</p><h2>Designed around your moment.</h2><p class="lead">Every event is different, so every setup is created with the client's theme, colors, space, and vision in mind. From a simple balloon statement to a complete celebration backdrop, my goal is to create décor that feels personal, polished, and photo-ready.</p><div class="stats"><div><strong>Custom</strong><span>themes & colors</span></div><div><strong>Local</strong><span>Houston-area service</span></div><div><strong>Full</strong><span>setup & teardown options</span></div></div></section>
-<section class="section services" id="services"><p class="eyebrow">Services</p><h2>Everything your celebration needs.</h2><div class="cards"><article><span>01</span><h3>Balloon Décor</h3><p>Organic garlands, arches, clusters, ceiling balloons, and custom color combinations.</p></article><article><span>02</span><h3>Backdrops & Signs</h3><p>Fabric arches, shimmer walls, custom vinyl lettering, themed signs, and photo areas.</p></article><article><span>03</span><h3>Statement Rentals</h3><p>Marquee letters and numbers, cake stands, vases, red carpet details, and display pieces.</p></article><article><span>04</span><h3>Custom Details</h3><p>Centerpieces, banners, figure cutouts, floral accents, printed details, and themed extras.</p></article></div></section>
-<section class="section portfolio" id="portfolio"><div class="section-heading"><div><p class="eyebrow">Portfolio</p><h2>Made to be remembered.</h2></div><p>Add your own event photos here as your course website develops.</p></div><div class="gallery"><div class="gallery-card g1"><span>Baby Showers</span></div><div class="gallery-card g2"><span>Birthdays</span></div><div class="gallery-card g3"><span>Milestones</span></div><div class="gallery-card g4"><span>Corporate Events</span></div><div class="gallery-card g5"><span>Graduations</span></div><div class="gallery-card g6"><span>Custom Themes</span></div></div></section>
-<section class="section packages" id="packages"><p class="eyebrow">Popular Packages</p><h2>A starting point for your vision.</h2><div class="package-grid"><article><p class="package-label">Essential</p><h3>Dream Starter</h3><p class="price">From $250</p><ul><li>Backdrop or arch</li><li>Balloon garland</li><li>Custom vinyl wording</li><li>Coordinated setup</li></ul><a href="#contact">Ask about this package →</a></article><article class="featured"><p class="package-label">Most Flexible</p><h3>Signature Celebration</h3><p class="price">Custom Quote</p><ul><li>Layered backdrop design</li><li>Expanded balloon styling</li><li>Custom signage</li><li>Optional florals & rentals</li></ul><a href="#contact">Build my celebration →</a></article><article><p class="package-label">Elevated</p><h3>Luxury Moment</h3><p class="price">From $400</p><ul><li>Statement backdrop</li><li>Premium balloon styling</li><li>Decorative accents</li><li>Personalized details</li></ul><a href="#contact">Ask about this package →</a></article></div><p class="fine-print">Final pricing depends on event size, location, materials, rentals, customization, delivery, setup, and teardown.</p></section>
-<section class="section contact" id="contact"><div><p class="eyebrow">Booking Inquiry</p><h2>Tell me about your event.</h2><p>Share your date, location, theme, colors, and the décor you have in mind. This form is a course-site demo and does not submit to a live booking system yet.</p></div><form id="bookingForm"><label>Name<input type="text" name="name" required></label><label>Email<input type="email" name="email" required></label><div class="form-row"><label>Event Date<input type="date" name="date" required></label><label>Event Type<select name="type"><option>Birthday</option><option>Baby Shower</option><option>Graduation</option><option>Corporate Event</option><option>Anniversary</option><option>Other</option></select></label></div><label>Tell me about your vision<textarea name="message" rows="5" placeholder="Theme, colors, location, backdrop, balloons, marquee numbers..."></textarea></label><button class="button primary" type="submit">Send Inquiry</button><p class="form-message" id="formMessage" role="status"></p></form></section>
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <img class="hero-logo" src="images/logo-banner.jpeg" alt="Sweetdreams by Mily logo">
+    <div class="welcome-stage" aria-label="Decorative 3D balloon welcome arch">
+      <div class="balloon-arch" aria-hidden="true">
+        <span class="balloon b1"></span><span class="balloon b2"></span><span class="balloon b3"></span><span class="balloon b4"></span><span class="balloon b5"></span><span class="balloon b6"></span><span class="balloon b7"></span><span class="balloon b8"></span><span class="balloon b9"></span><span class="balloon b10"></span><span class="balloon b11"></span><span class="balloon b12"></span>
+      </div>
+      <div class="hero-content">
+        <div class="eyebrow">Houston • Katy • Cypress</div>
+        <h1>Welcome to SweetdreamsbyMily</h1>
+        <p><strong>Bringing your dream events to life.</strong> We create customized event décor for birthdays, baby showers, graduations, corporate celebrations, weddings, and other special occasions. From balloon garlands and arches to backdrops, marquee numbers, signs, centerpieces, and floral accents, every setup is designed to make your celebration beautiful and memorable.</p>
+        <div class="hero-actions"><a class="btn" href="#packages">View Packages</a><a class="btn btn-outline" href="#gallery">View Gallery</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section"><div class="section-inner"><div class="eyebrow">About Us</div><h2>Decor designed around your celebration</h2><p>SweetdreamsbyMily creates personalized event décor with attention to theme, color, and the details that make each celebration unique. Our goal is to transform our clients' ideas into beautiful and memorable events while providing creative and reliable service.</p></div></section>
+
+<section id="services" class="section alt"><div class="section-inner"><div class="eyebrow">Our Services</div><h2>Everything you need for a beautiful setup</h2><div class="cards"><article class="card"><h3>Balloon Décor</h3><p>Balloon garlands, arches, clusters, and customized arrangements.</p></article><article class="card"><h3>Backdrops & Signs</h3><p>Customized arches, shimmer walls, vinyl lettering, banners, and welcome signs.</p></article><article class="card"><h3>Event Details</h3><p>Centerpieces, cake stands, floral accents, marquee letters and numbers, and custom printing.</p></article><article class="card"><h3>Setup & Teardown</h3><p>Event setup, delivery, and teardown options for celebrations throughout the service area.</p></article></div></div></section>
+
+<section id="gallery" class="section"><div class="section-inner"><div class="eyebrow">Gallery</div><h2>Our Celebrations</h2><p class="lead">A look at balloon décor, baby showers, birthdays, graduations, and elegant custom backdrops.</p>
+<!-- GALLERY EDITING: Put your photos inside the images folder. Then replace images/photo1.jpg below with your filename, for example images/baby-shower.jpg. Duplicate a gallery-card block to add more photos. -->
+<div class="gallery-grid">
+  <figure class="gallery-card"><img src="images/birthday-30.jpeg" alt="Red, black and white 30th birthday balloon decoration"><figcaption>Birthday Celebrations</figcaption></figure>
+  <figure class="gallery-card"><img src="images/baby-shower-table.jpeg" alt="Pink teddy bear baby shower table decor"><figcaption>Baby Showers</figcaption></figure>
+  <figure class="gallery-card"><img src="images/baby-in-bloom.jpeg" alt="Blue, cream and gold Baby in Bloom balloon backdrop"><figcaption>Baby in Bloom</figcaption></figure>
+  <figure class="gallery-card"><img src="images/birthday-70.png" alt="Red and black 70th birthday balloon backdrop"><figcaption>Milestone Birthdays</figcaption></figure>
+  <figure class="gallery-card"><img src="images/birthday-50.webp" alt="Black, white and gold 50th birthday balloon decoration"><figcaption>Elegant Balloon Décor</figcaption></figure>
+  <figure class="gallery-card"><img src="images/graduation.jpeg" alt="Orange, navy and gold graduation balloon backdrop"><figcaption>Graduations</figcaption></figure>
+  <figure class="gallery-card"><img src="images/floral-arch.webp" alt="White and green floral ceremony arch"><figcaption>Floral Arches</figcaption></figure>
+  <figure class="gallery-card"><img src="images/floral-backdrop.jpg" alt="White draped backdrop with pink floral arrangements"><figcaption>Floral Backdrops</figcaption></figure>
+</div>
+<div class="edit-note"><strong>Easy gallery editing:</strong> add your photos to the <code>images</code> folder and replace each placeholder with <code>&lt;img src="images/your-photo.jpg" alt="Event decoration"&gt;</code>.</div>
+</div></section>
+
+<section id="packages" class="section alt"><div class="section-inner"><div class="eyebrow">Services & Packages</div><h2>Choose the setup that fits your celebration</h2><p class="lead">Each package can be customized to your event colors, theme, location, and available décor.</p><div class="cards package-cards">
+<article class="card package"><div class="package-label">Indoor</div><h3>Basic Package</h3><div class="price">$280</div><p>A beautiful setup for an indoor celebration.</p><ul><li>Basic arch</li><li>Balloon garland with up to 3 colors</li><li>One LED sign or vinyl lettering</li></ul></article>
+<article class="card package featured"><div class="package-label">Indoor or Outdoor</div><h3>Medium Package</h3><div class="price">$350</div><p>More details for a fuller, personalized event display.</p><ul><li>Decorative backdrop or arch setup</li><li>Balloon garland</li><li>Two figure cutouts <strong>or</strong> marquee number</li><li>Available for indoor and outdoor events</li></ul></article>
+<article class="card package"><div class="package-label">Custom</div><h3>Deluxe Package</h3><div class="price">Starting at $400</div><p>A larger customized design created around your vision.</p><ul><li>Enhanced balloon styling</li><li>Customized backdrop elements</li><li>Premium decorative details</li><li>Personalized options based on your event</li></ul></article>
+</div><p class="package-note">Final pricing may vary depending on event size, location, theme, customization, delivery, setup, and additional décor selections.</p></div></section>
+
+<section id="contact" class="section contact"><div class="section-inner"><div class="eyebrow">Contact Us</div><h2>Let's create your celebration</h2><p>SweetdreamsbyMily proudly serves Houston, Katy, Cypress, and surrounding areas. Contact us to discuss your event theme, date, location, and décor ideas.</p><p class="under-construction">Booking/contact form coming soon.</p></div></section>
 </main>
-<footer><div class="brand">Sweetdreams<span>byMily</span></div><p>Event décor • Houston, Katy & Cypress, Texas</p><p>© <span id="year"></span> SweetdreamsbyMily</p></footer><script src="script.js"></script></body></html>
+<footer>&copy; 2026 SweetdreamsbyMily. Houston, Texas.</footer>
+</body></html>
