@@ -1,6 +1,8 @@
 // Human-written Spanish translations; no external translation service.
 (() => {
 const es = {
+"Payment Plans Available":"Planes de pago disponibles",
+"We offer payment plans. The full amount must be paid at least 72 hours before your event. Contact us to arrange your payments.":"Ofrecemos planes de pago. El monto total debe pagarse al menos 72 horas antes de tu evento. Contáctanos para organizar tus pagos.",
 "Made for your theme":"Diseñados para tu temática",
 "Balloon & Customized Centerpieces":"Centros de mesa con globos y personalizados",
 "Starting at $40":"Desde $40",
