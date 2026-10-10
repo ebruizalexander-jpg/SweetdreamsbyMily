@@ -1,6 +1,18 @@
 // Human-written Spanish translations; no external translation service.
 (() => {
 const es = {
+"Made for your theme":"Diseñados para tu temática",
+"Balloon & Customized Centerpieces":"Centros de mesa con globos y personalizados",
+"Starting at $40":"Desde $40",
+"Complete your tables with balloon centerpieces or customized designs made to match your theme and colors. Choose from balloon arrangements, themed details, and floral accents for birthdays, baby showers, and other celebrations.":"Completa tus mesas con centros de mesa de globos o diseños personalizados según tu temática y colores. Elige arreglos de globos, detalles temáticos y acentos florales para cumpleaños, baby showers y otras celebraciones.",
+"Customized Themed Centerpieces":"Centros de mesa temáticos personalizados",
+"Personalized details inspired by your celebration, including rustic cowboy themes and other custom designs.":"Detalles personalizados inspirados en tu celebración, incluyendo temáticas rústicas de vaqueros y otros diseños personalizados.",
+"Floral Centerpiece Inspiration":"Inspiración para centros de mesa florales",
+"Coordinated floral accents and elegant arrangements designed around your event colors.":"Detalles florales coordinados y arreglos elegantes diseñados según los colores de tu evento.",
+"Balloon Centerpieces":"Centros de mesa con globos",
+"Custom balloon arrangements in your preferred colors to bring a playful, coordinated touch to every table.":"Arreglos de globos personalizados en tus colores favoritos para dar un toque alegre y coordinado a cada mesa.",
+"Photos show design inspiration. Final pricing depends on the size, materials, and customization selected.":"Las fotos muestran inspiración de diseño. El precio final depende del tamaño, los materiales y la personalización seleccionada.",
+"Request centerpieces":"Solicita centros de mesa",
 "Home":"Inicio","About Us":"Sobre nosotros","Services":"Servicios","Gallery":"Galería","Packages":"Paquetes","Contact Us":"Contacto",
 "Skip to main content":"Ir al contenido principal","EVENT DÉCOR & CELEBRATIONS":"DECORACIÓN DE EVENTOS Y CELEBRACIONES",
 "Beautiful moments.":"Momentos hermosos.","Lasting memories.":"Recuerdos inolvidables.",
