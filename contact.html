@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="style.css?v=module44">
   <script src="script.js" defer></script>
   <script src="translations.js?v=paymentplans72" defer></script>
+<link rel="stylesheet" href="feedback.css?v=m64">
+<script src="feedback.js?v=m64" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -37,6 +39,21 @@
   <div id="inquiryDraft" hidden><label for="inquirySummary">Your inquiry — copy and send using the contact details above</label><textarea id="inquirySummary" rows="10" readonly></textarea></div>
 </div>
 <noscript><p>JavaScript is required for the inquiry helper. Please use the contact details on our business card to send your event date, location, theme, and preferred package.</p></noscript></div></section>
+<section class="section alt" id="feedback" aria-labelledby="feedbackHeading"><div class="section-inner card"><h2 id="feedbackHeading" data-en="Help us improve your experience" data-es="Ayúdanos a mejorar tu experiencia">Help us improve your experience</h2><p id="feedbackHelp" data-en="This short survey saves your latest response in this browser. It is not sent to SweetdreamsbyMily. Download a copy if you would like to email it to us." data-es="Esta breve encuesta guarda tu última respuesta en este navegador. No se envía a SweetdreamsbyMily. Descarga una copia si deseas enviárnosla por correo.">This short survey saves your latest response in this browser. It is not sent to SweetdreamsbyMily. Download a copy if you would like to email it to us.</p>
+<form id="feedbackForm" aria-describedby="feedbackHelp">
+<label for="feedbackEvent" data-en="What are you planning? (required)" data-es="¿Qué evento planeas? (obligatorio)">What are you planning? (required)</label>
+<select id="feedbackEvent" name="event" required><option value="" data-en="Choose an event" data-es="Elige un evento">Choose an event</option><option value="Birthday" data-en="Birthday" data-es="Cumpleaños">Birthday</option><option value="Baby shower" data-en="Baby shower" data-es="Baby shower">Baby shower</option><option value="Corporate event" data-en="Corporate event" data-es="Evento empresarial">Corporate event</option><option value="Other" data-en="Other" data-es="Otro">Other</option></select>
+<label for="feedbackRating" data-en="How easy was it to find what you needed? (required)" data-es="¿Qué tan fácil fue encontrar lo que necesitabas? (obligatorio)">How easy was it to find what you needed? (required)</label>
+<select id="feedbackRating" name="rating" required><option value="" data-en="Choose a rating" data-es="Elige una calificación">Choose a rating</option><option value="5" data-en="5 — Very easy" data-es="5 — Muy fácil">5 — Very easy</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1" data-en="1 — Difficult" data-es="1 — Difícil">1 — Difficult</option></select>
+<label for="feedbackComments" data-en="Suggestions (optional)" data-es="Sugerencias (opcional)">Suggestions (optional)</label><textarea id="feedbackComments" name="comments" rows="4" maxlength="1000"></textarea>
+<label><input id="feedbackConsent" type="checkbox" required> <span data-en="I understand my response is saved only in this browser. Please do not include personal or payment information." data-es="Entiendo que mi respuesta se guarda solo en este navegador. No incluyas datos personales ni información de pago.">I understand my response is saved only in this browser. Please do not include personal or payment information.</span></label>
+<div class="estimate-actions"><button class="btn" type="submit" data-en="Submit feedback" data-es="Enviar opinión">Submit feedback</button><button class="btn" type="reset" data-en="Reset" data-es="Restablecer">Reset</button></div>
+</form>
+<p id="feedbackStatus" role="status" aria-live="polite" tabindex="-1"></p>
+<div id="feedbackReceipt" hidden><h3 data-en="Your saved response" data-es="Tu respuesta guardada">Your saved response</h3><p id="feedbackSummary" style="white-space:pre-wrap"></p><button id="feedbackDownload" class="btn" type="button" data-en="Download response" data-es="Descargar respuesta">Download response</button> <button id="feedbackDelete" class="btn" type="button" data-en="Delete saved response" data-es="Eliminar respuesta guardada">Delete saved response</button></div>
+<p><a href="mailto:sweetdreamsbymily@gmail.com">sweetdreamsbymily@gmail.com</a></p>
+<noscript><p>Enable JavaScript to submit this survey, or email your feedback to sweetdreamsbymily@gmail.com.</p></noscript>
+</div></section>
 </main>
 <footer><a class="footer-brand" href="index.html"><img class="footer-logo" src="photos/sweetdreamsbymily-logo.webp" alt="Sweetdreams by Mily"></a><p>Creating beautiful celebrations in Houston, Katy &amp; Cypress.</p><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="packages.html">Packages</a><a href="contact.html" aria-current="page">Contact Us</a></nav><p class="copyright">&copy; <span id="year">2026</span> SweetdreamsbyMily. All rights reserved.</p></footer>
 </body>
